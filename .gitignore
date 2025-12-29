@@ -1,0 +1,35 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+# Ignores the folder where your libraries are installed
+venv/
+.venv/
+env/
+
+# --- Environment Variables (CRITICAL) ---
+# Never commit secrets or config keys to git
+.env
+
+# --- Database ---
+# We generally do not commit the live database binary
+# We commit the schema code (database.py) and seed scripts instead
+*.db
+*.sqlite
+*.sqlite3
+
+# --- IDE & Editor Settings ---
+# Ignores local VS Code settings that might conflict with other developers
+.vscode/
+.idea/
+
+# --- Distribution / Builds ---
+build/
+dist/
+*.egg-info/
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
