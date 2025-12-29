@@ -76,7 +76,3 @@ members.db           # Local SQLite database (generated/seeded)
 requirements.txt
 .env                 # Local config (not for commit)
 ```
-
-## Notes
-- Rotate and keep `OPENAI_API_KEY` private; use a non-production key for demos.
-- `members.db` is a local artifact; recreate or reseed anytime via `seed_data.py`.
